@@ -3,7 +3,7 @@ project(
   'c',
   'cpp',
   version: '4.2.3',
-  default_options: ['cpp_std=c++11', 'c_std=c99'],
+  default_options: ['cpp_std=c++14', 'c_std=c99'],
 )
 major_version = 4
 minor_version = 2
@@ -253,5 +253,5 @@ endif
 pkgconfig = find_program('pkg-config', required: false)
 if pkgconfig.found()
   pkg = import('pkgconfig')
-  pkg.generate(gaollib, extra_cflags: '-std=c++11', name: 'gaol')
+  pkg.generate(gaollib, extra_cflags: '-std=c++14', name: 'gaol')
 endif
