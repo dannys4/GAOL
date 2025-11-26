@@ -36,9 +36,9 @@ build_tests = get_option('with-test')
 #endif
 mathlib_dep = dependency('', required: false)
 if mathlib == 'apmathlib'
-  mathlib_dep = cpp_comp.find_library('ultim', required: true)
+  mathlib_dep = dependency('ultim', required: true)
 elif mathlib == 'crlibm'
-  mathlib_dep = cpp_comp.find_library('crlibm', required: true)
+  mathlib_dep = dependency('crlibm', required: true)
   # else
   #   mathlib_dep = cpp_comp.find_library('m', required: true)
 endif
