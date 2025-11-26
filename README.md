@@ -8,7 +8,7 @@ GAOL is a C++ [Interval Arithmetic](https://en.wikipedia.org/wiki/Interval_arith
 
 ### Pre-requisites
 
-A supported math library: [apmathlib](https://frederic.goualard.net/software/mathlib-2.1.1.tar.gz) or [crlibm](https://github.com/taschini/crlibm)
+A supported math library: [apmathlib](https://frederic.goualard.net/software/mathlib-2.1.1.tar.gz) or [crlibm](https://github.com/taschini/crlibm) (since crlibm github repo seems to have missing files, you can take get it here: [pycrlibm](https://github.com/taschini/pycrlibm))
 
 ### Linux users
 
